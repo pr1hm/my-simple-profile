@@ -193,3 +193,103 @@ body {
   text-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
   cursor: default;
 }
+
+/* --- CONTACT SECTION STYLES --- */
+.contact {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.contact-container {
+  max-width: 700px; /* Slightly narrower than the brief section for better focus */
+  width: 100%;
+  background: #18181b;
+  border-radius: 16px;
+  border-top: 3px solid #4ade80;
+  padding: 4rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content inside the card */
+  text-align: center;
+}
+
+.contact-subtitle {
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.15rem;
+  color: #a1a1aa;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.25rem;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+}
+
+/* Reusing your glow aesthetic for the email link */
+.contact-link {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px dashed #4ade80;
+  transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #4ade80;
+  text-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
+}
+
+.contact-text {
+  color: #ffffff;
+}
+
+/* Social Buttons Row */
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensures buttons wrap neatly on smaller mobile screens */
+}
+
+.social-btn {
+  font-family: "Cutive Mono", monospace;
+  color: #18181b; /* Dark text for contrast against the green */
+  background: #4ade80;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 2px solid #4ade80;
+  transition: all 0.3s ease;
+}
+
+/* Inverts the colors and adds the neon glow on hover */
+.social-btn:hover {
+  background: transparent;
+  color: #4ade80;
+  box-shadow: 0 0 15px rgba(74, 222, 128, 0.4);
+}
+
