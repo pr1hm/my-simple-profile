@@ -56,6 +56,15 @@ body {
   text-align: center;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
 .down {
   text-align: center;
   position: absolute;
