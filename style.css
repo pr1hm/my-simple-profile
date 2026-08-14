@@ -15,6 +15,8 @@
 
 .header-links a:hover {
   transition: color 0.3s ease;
+  text-underline-offset: 4px;
+  transition: all 0.3s ease;
   text-decoration: underline;
 
 }
