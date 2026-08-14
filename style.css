@@ -1,27 +1,35 @@
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
 
 .header-links {
-    display: flex;
-    gap: 5rem;
+  display: flex;
+  gap: 5rem;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-links a:hover {
+  transition: color 0.3s ease;
+  text-decoration: underline;
+
 }
 
 .header-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 .hero {
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
