@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.header-links {
+    display: flex;
+    gap: 5rem;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
