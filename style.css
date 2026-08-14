@@ -116,13 +116,15 @@ body {
 }
 
 .content {
-  box-shadow: 0 0 100px rgba(0,0,0,0.4);
   justify-content: center;
   align-items: flex-end;
   padding-bottom: 40px;
   position: relative;
-  background: #000;
   height: 2000px;
   display: flex;
   top: 100vh;
+  box-shadow: 0 -20px 50px #fafafa;
+  background-color: #fafafa;
+  background-image: radial-gradient(#374151 1px, transparent 1px);
+  background-size: 16px 16px;
 }
