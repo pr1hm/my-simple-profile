@@ -29,6 +29,7 @@ body {
 
 .header-links a:hover {
   transition: color 0.3s ease;
+  color: #4aded2;
   text-underline-offset: 4px;
   transition: all 0.3s ease;
   text-decoration: underline;
@@ -52,7 +53,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
 }
 
@@ -61,9 +62,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
-  padding: 3rem 5rem;
+  padding: 30rem 5rem;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -79,7 +81,7 @@ body {
 
 .hero-subtitle {
   font-family: "Cutive Mono", monospace;
-  font-size: 1.2rem; /* Fixed spelling */
+  font-size: 1.2rem;
   margin-top: 1rem;
   color: #d2cdcd;
   font-weight: 300;
@@ -91,7 +93,7 @@ body {
   font-family: "Cutive Mono", monospace;
   font-size: 5rem;
   margin-top: 1rem;
-  color: #4ade80;
+  color: #4aded2;
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -138,27 +140,30 @@ body {
   top: 100vh;
   z-index: 20;
   box-shadow: 0 -20px 50px rgba(0,0,0,0.1);
-  background-color: #070606;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
   background-image: radial-gradient(#d1d5db 1px, transparent 1px);
   background-size: 16px 16px;
+  border-top: 5px solid #4aded2;
 }
 
 .brief {
   min-height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: stretch;
-  align-items: center;
+  justify-content: space-around;
+  align-items: inherit;
   padding: 0 2rem;
 }
 
 .brief-container {
-  max-width: 900px;
-  background: #18181b;
+  max-width: 90%;
   border-radius: 16px;
-  padding: 4rem;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-  text-align: left;
+  padding: 0px;
+  text-align: justify;
+  justify-content: space-around;
+  background: #18181b;
+  border: 3px solid #4aded2;
 }
 
 .section-title {
@@ -168,8 +173,13 @@ body {
   margin-top: 0;
   margin-bottom: 1.5rem;
   display: inline-block;
-  border-bottom: 2px solid #4ade80;
   padding-bottom: 10px;
+  margin: 30px 30px 0px 30px;
+}
+
+.p {
+  margin: 0px 30px 30px 30px;
+  font-family: "Cutive Mono", monospace;
 }
 
 .brief-text {
@@ -183,18 +193,16 @@ body {
 .text-glow {
   color: #ffffff;
   font-weight: bold;
-  border-bottom: 1px dashed #4ade80;
   padding-bottom: 2px;
   transition: all 0.3s ease;
 }
 
 .text-glow:hover {
-  color: #4ade80;
-  text-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
+  color: #4aded2;
+  text-shadow: 0 0 8px rgba(74, 220, 222, 0.725);
   cursor: default;
 }
 
-/* --- CONTACT SECTION STYLES --- */
 .contact {
   min-height: 100vh;
   width: 100%;
@@ -205,11 +213,11 @@ body {
 }
 
 .contact-container {
-  max-width: 700px; /* Slightly narrower than the brief section for better focus */
+  max-width: 90%; /* Slightly narrower than the brief section for better focus */
   width: 100%;
   background: #18181b;
   border-radius: 16px;
-  border-top: 3px solid #4ade80;
+  border: 3px solid #4aded2;
   padding: 4rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -252,12 +260,12 @@ body {
 .contact-link {
   color: #ffffff;
   text-decoration: none;
-  border-bottom: 1px dashed #4ade80;
+  border-bottom: 1px dashed #4aded2;
   transition: all 0.3s ease;
 }
 
 .contact-link:hover {
-  color: #4ade80;
+  color: #4aded2;
   text-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
 }
 
@@ -276,20 +284,20 @@ body {
 .social-btn {
   font-family: "Cutive Mono", monospace;
   color: #18181b; /* Dark text for contrast against the green */
-  background: #4ade80;
+  background: #4aded2;
   padding: 0.8rem 2rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
-  border: 2px solid #4ade80;
+  border: 2px solid #4aded2;
   transition: all 0.3s ease;
 }
 
 /* Inverts the colors and adds the neon glow on hover */
 .social-btn:hover {
   background: transparent;
-  color: #4ade80;
+  color: #4aded2;
   box-shadow: 0 0 15px rgba(74, 222, 128, 0.4);
 }
 
